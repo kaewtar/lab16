@@ -30,8 +30,8 @@ void shuffle(int &a,int &b,int &c,int &d)
 		B[s] = B[r];
 		B[r] = temp;
 	}
-	a = B[0];
-	b = B[1];
-	c = B[2];
-	d = B[3];
+	*a = B[0];
+	*b = B[1];
+	*c = B[2];
+	*d = B[3];
 }
